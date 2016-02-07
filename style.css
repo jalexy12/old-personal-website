@@ -1,0 +1,34 @@
+body {
+	background-image: url("./images/background.jpg");
+	font-family: 'Inconsolata', Arial, Helvetica, sans-serif;
+}
+
+.hover-image:hover {
+	height: 155px;
+	width: 155px;
+}
+
+.home-name {
+	font-size: 76px;
+}
+
+.home-title {
+	font-size: 28px;
+}
+
+.index-prof {
+	height: 400px;
+	width: 400px;
+}
+
+.info {
+	color: #FAEBD7;
+}
+
+@media only screen and (min-device-width: 768px) {
+	.info {
+		position: absolute;
+		top: 30%;
+		right: 24%;
+	}
+}
