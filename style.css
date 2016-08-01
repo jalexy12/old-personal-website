@@ -48,7 +48,7 @@ hr {
 
 .prof-image {
 	height: 250px;
-	width: 250px;
+	width: 200px;
 	border-radius: 50%;
 	float: left;
 }
@@ -188,4 +188,13 @@ p,
 		padding-left: 17%;
 		padding-right: 17%;
 	}
+	.image-container {
+		padding-left: 10%;
+	}
 }
+
+@media only screen and (max-width: 40em) { 
+	.image-container {
+		padding-left: 25%;
+	}
+} 
