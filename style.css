@@ -19,10 +19,6 @@ hr {
 	height: 130px;
 	width: 130px;
 }
-.hover-image:hover {
-	height: 155px;
-	width: 155px;
-}
 
 .home-name {
 	font-size: 76px;
@@ -203,5 +199,9 @@ p,
 
 	.arrow-box {
 		display: none;
+	}
+
+	.specs {
+		margin-top: 15px;
 	}
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
