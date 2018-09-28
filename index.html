@@ -1,391 +1,1098 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+<!doctype html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>Josh Alexy</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <style>
+  /********************************************
+* 	reset from
+* 	http://meyerweb.com/eric/tools/css/reset/
+*******************************************/
 
-	  ga('create', 'UA-84831210-1', 'auto');
-	  ga('send', 'pageview');
-	</script>
-	<script src="//load.sumome.com/" data-sumo-site-id="cb216bc1443fb171e2731c56414fff4483628b1452cf37198a60ef81a5776afd" async="async"></script>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Josh Alexy's personal site">
-	<meta name="keywords" content="Freelance Developer,Miami Developer,Freelance Miami Developer, Miami Ruby Developer, Rails, ReactJS Miami, Miami JavaScript">
-	<meta name="author" content="Josh Alexy">
-	<meta property=”og:title” content="Josh Alexy's personal site">
-	<title>Josh Alexy</title>
-	<link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<link rel="stylesheet" href="style.css">
-</head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
-	
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
 
-  <div class="container-fluid heading-section">
-	  <div class="info text-center">
-			<header class="home-header">
-				<h1 class="home-name">
-					<strong>Josh Alexy</strong>
-				</h1>
-				<h2 class="home-title">Ambitious Developer & Instructor at Ironhack</h2>
-			</header>
-		</div>
-		<div class="arrow-box">
-			<a href="#details" id="details-link">
-				<span class="glyphicon glyphicon-chevron-down arrow"></span>
-			</a>
-		</div>
-	</div>
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
 
-	<div class="container-fluid" id="details">
-		<nav class="navbar navbar-default" data-spy="affix">
-		  <div class="container-fluid nav-container">
-			   <div class="navbar-header">
-			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-			        <span class="sr-only">Toggle navigation</span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			      </button>
-			    </div>
-			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			      <ul class="nav navbar-nav">
-			        <li><a href="#details">Details</a></li>
-			        <li><a href="#skills">Skills</a></li>
-			        <li><a href="#education">Education</a></li>
-			        <li><a href="#experience">Experience</a></li>
-			        <li><a href="#contact">Contact</a></li>
+body {
+    line-height: 1;
+}
 
-			      </ul>
-			    </div><!-- /.navbar-collapse -->
-		  </div><!-- /.container-fluid -->
-		</nav>
-		<div class="row prof-section text-center">
-			<h1>Me</h1>
-			<hr>
-			<div class="col-xs-12 col-sm-6 image-container">
-				<img src="./images/jalexyprof.jpg" class="prof-image">
-			</div>
-			<div class="col-xs-12 col-sm-6">
-				<div class="specs text-left">
-					<h3>Specs</h3>
-					<div class="spec-field">
-						<strong>Name</strong>
-						<br>
-						<span class="spec-item">Josh Alexy</span>
-					</div>
-					<div class="spec-field">
-						<strong>Age</strong>
-						<br>
-						<span class="spec-item">25</span>
-					</div>
-					<div class="spec-field">
-						<strong>Location</strong>
-						<br>
-						<span class="spec-item">Miami, Fl</span>
-					</div>
-				</div>
-			</div>	
-			<div class="col-xs-12">
-				<div class="about">
-					<h3>About</h3>
-					<p>
-						I'm a Pittsburgh transplant living in Miami. I'm a quick learner, and am able to tackle most challenges thrown my way. While my professional interests extend beyond code, programming is my passion. I find purpose in building  and helping others turn ideas into binary. My specialties lie in the backend, but I'm a big fan of JavaScript and emerging front end technologies. 
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	</div>
-	<div class="container-fluid" id="skills">
-		<div class="row prof-section text-center">
-			<h1>Skills</h1>
-			<hr>
-		</div>
+ol,
+ul {
+    list-style: none;
+}
 
-		<div class="skills row prof-section">
-			<h3 class="text-center">Languages / Frameworks / Libraries</h3>
-			<div class="col-xs-6 skill">
-				<strong>Ruby</strong>
-				<progress value="92" max="100"></progress>
-			</div>
-			<div class="col-xs-6 skill">
-				<strong>Ruby on Rails</strong>
-				<progress value="89" max="100"></progress>
-			</div>
-			<div class="col-xs-6 skill">
-				<strong>Sinatra</strong>
-				<progress value="87" max="100"></progress>
-			</div>
-			<div class="col-xs-6 skill">
-				<strong>ReactJS</strong>
-				<progress value="84" max="100"></progress>
-			</div>
-			<div class="col-xs-6 skill">
-				<strong>AngularJS</strong>
-				<progress value="83" max="100"></progress>
-			</div>
-			<div class="col-xs-6 skill">
-				<strong>jQuery</strong>
-				<progress value="83" max="100"></progress>
-			</div>
-			<div class="col-xs-6 skill">
-				<strong>JavaScript</strong>
-				<progress value="83" max="100"></progress>
-			</div>
-			<div class="col-xs-6 skill">
-				<strong>Python</strong>
-				<progress value="82" max="100"></progress>
-			</div>
-			<div class="col-xs-6 skill">
-				<strong>Relational Databases</strong>
-				<progress value="81" max="100"></progress>
-			</div>
-			<div class="col-xs-6 skill">
-				<strong>HTML5</strong>
-				<progress value="77" max="100"></progress>
-			</div>
-			<div class="col-xs-6 skill">
-				<strong>CSS</strong>
-				<progress value="70" max="100"></progress>
-			</div>
-			<div class="col-xs-6 skill">
-				<strong>Bootstrap</strong>
-				<progress value="67" max="100"></progress>
-			</div>
-			<div class="col-xs-6 skill">
-				<strong>SASS</strong>
-				<progress value="65" max="100"></progress>
-			</div>
-			<div class="col-xs-6 skill">
-				<strong>Meteor</strong>
-				<progress value="63" max="100"></progress>
-			</div>
-			<div class="col-xs-6 skill">
-				<strong>SQL</strong>
-				<progress value="59" max="100"></progress>
-			</div>
-			<div class="col-xs-6 skill">
-				<strong>NodeJS</strong>
-				<progress value="15" max="100"></progress>
-			</div>
-			<div class="col-xs-6 skill">
-				<strong>Go</strong>
-				<progress value="5" max="100"></progress>			
-			</div>
-			<div class="col-xs-6 skill">
-				<strong>Elixir</strong>
-				<progress value="5" max="100"></progress>	
-			</div>
+blockquote,
+q {
+    quotes: none;
+}
 
-		</div>
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: none;
+}
 
-		<div class="skills row prof-section">
-			<h3 class="text-center">Tools / Skills</h3>
-			<div class="col-xs-6 skill">
-				<strong>Sublime</strong>
-				<progress value="85" max="100"></progress>
-			</div>
-			<div class="col-xs-6 skill">
-				<strong>AJAX</strong>
-				<progress value="83" max="100"></progress>
-			</div>
-			<div class="col-xs-6 skill">
-				<strong>UNIX Command Line</strong>
-				<progress value="80" max="100"></progress>
-			</div>
-			<div class="col-xs-6 skill">
-				<strong>Heroku</strong>
-				<progress value="78" max="100"></progress>
-			</div>
-			<div class="col-xs-6 skill">
-				<strong>AWS</strong>
-				<progress value="70" max="100"></progress>
-			</div>
-			<div class="col-xs-6 skill">
-				<strong>Git</strong>
-				<progress value="67" max="100"></progress>
-			</div>
-			<div class="col-xs-6 skill">
-				<strong>Github</strong>
-				<progress value="65" max="100"></progress>
-			</div>
-			<div class="col-xs-6 skill">
-				<strong>Slack</strong>
-				<progress value="65" max="100"></progress>
-			</div>
-			<div class="col-xs-6 skill">
-				<strong>Trello</strong>
-				<progress value="63" max="100"></progress>
-			</div>
-		</div>
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
 
-		<div class="skills row prof-section">
-			<h3 class="text-center">Concepts / Soft Skills</h3>
-			<div class="col-xs-6 skill">
-				<strong>Work Ethic</strong>
-				<progress value="110" max="100"></progress>
-				<!-- That's not a mistake -->
-			</div>
-			<div class="col-xs-6 skill">
-				<strong>Teaching</strong>
-				<progress value="92" max="100"></progress>
-			</div>
-			<div class="col-xs-6 skill">
-				<strong>Agile Development</strong>
-				<progress value="87" max="100"></progress>
-			</div>
-			<div class="col-xs-6 skill">
-				<strong>Teamwork</strong>
-				<progress value="85" max="100"></progress>
-			</div>
-			<div class="col-xs-6 skill">
-				<strong>Design Patterns</strong>
-				<progress value="80" max="100"></progress>
-			</div>
-			<div class="col-xs-6 skill">
-				<strong>TDD</strong>
-				<progress value="74" max="100"></progress>
-			</div>
-			<div class="col-xs-6 skill">
-				<strong>Project Management</strong>
-				<progress value="73" max="100"></progress>
-			</div>
-		</div>
 
-	</div>
+/****************
+*	COMMONS
+****************/
 
-	<div class="container-fluid" id="education">
-		<div class="row prof-section">
-			<h1 class="text-center">Education</h1>
-			<hr>
-			<div class="education-section">
-				<div class="edu-block row">
-					<div class="col-xs-6">
-						<strong>Open Source Computer Science</strong>
-						<br>
-						April 2016 - Present
-					</div>
-					<div class="col-xs-6">
-						<strong>Computer Science</strong>
-						<br>
-						<p>
-						<a href="https://github.com/open-source-society/computer-science">Open Source Computer Science</a> is college level computer science curriculum using various open, online platforms such as coursera. 
-						</p> 
-					</div>
-				</div>
-				<div class="edu-block row">
-					<div class="col-xs-6">
-						<strong>Ironhack</strong>
-						<br>
-						January 2015 - March 2015
-					</div>
-					<div class="col-xs-6">
-						<strong>Full Stack Web Development</strong>
-						<br>
-						<p>
-						Ironhack is a full stack web development bootcamp that is 8 weeks long and covers Ruby, Ruby on Rails, JavaScript, HTML, CSS, GIT, and more.
-						</p> 
-					</div>
-				</div>
-				<div class="edu-block row">
-					<div class="col-xs-6">
-						<strong>CCAC</strong>
-						<br>
-						January 2014 - December 2014
-					</div>
-					<div class="col-xs-6">
-						<strong>Software Development</strong>
-						<br>
-						<p>
-						Studied software development, including Intro to Software Development and Intro to IT courses. Left early to attend Ironhack in Miami.
-						</p> 
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="container-fluid" id="experience">
-		<div class="row prof-section">
-			<h1 class="text-center">Experience</h1>
-			<hr>
-			<div class="experience-section">
-				<div class="exp-block row">
-					<div class="col-xs-6">
-						<strong>Ironhack</strong>
-						<br>
-						April 2016 - Present
-					</div>
-					<div class="col-xs-6">
-						<strong>Teaching Assistant / Instructor</strong>
-						<br>
-						<ul>
-							<li>Teaching and lecturing on a wide array of web development related topics</li>
-							<li> Product and Curriculum development</li>
-							<li>Vetting potential students during the admissions process</li> 
-							<li>Keeping up with modern technologies and best practices</li>
-						</ul> 
-					</div>
-				</div>
-				<div class="exp-block row">
-					<div class="col-xs-6">
-						<strong>Eddie Merlot's</strong>
-						<br>
-						March 2014 - December 2014
-					</div>
-					<div class="col-xs-6">
-						<strong>Line Cook</strong>
-						<br>
-						<ul>
-							<li>Responsible for leading a section in a high volume, upscale restaurant experience</li>
-							<li>Shaped standards related to teamwork and communication processes in a brand new restaurant</li>
-						</ul> 
-					</div>
-				</div>
-				<div class="exp-block row">
-					<div class="col-xs-6">
-						<strong>Franco's Trattoria</strong>
-						<br>
-						January 2007 - December 2013
-					</div>
-					<div class="col-xs-6">
-						<strong>Kitchen Manager</strong>
-						<br>
-						<ul>
-							<li>Grew from a 16 year old dishwasher to a kitchen manager of 15+ staff in 4 years</li>
-							<li>Handled ordering, scheduling, and other professional relationships for a one million dollar a year business</li>
-						</ul> 
-					</div>
-				</div>
-			</div>
-		</div>
+body,
+html {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 13px;
+    color: #40484f;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.46153846;
+    text-align: left;
+    -webkit-text-size-adjust: 100%;
+}
 
-	<div class="container-fluid" id="contact">
-		<div class="row text-center prof-section">
-			<h1>Contact</h1>
-			<hr>
-			<p>Check out my LinkedIn, my code, or shoot me an email</p>
-			<div class="social">
-				<a target="_blank" href="https://www.linkedin.com/in/joshalexy">
-					<img alt="linkedin logo" class="hover-image" src="./images/linked_in.png">
-				</a>
-				<a target="_blank" href="https://github.com/jalexy12/">
-					<img alt="github logo" class="hover-image" src="./images/github.png">
-				</a>
-				<a target="_top" href="mailto:jalexy12@gmail.com?Subject=Hello%20Josh - < Reason for contacting goes here >">
-					<img alt="gmail-logo" class="hover-image" src="./images/gmail.png">
-				</a>
-			</div>
-		</div>
-	</div>
+p {
+    display: block;
+    margin-bottom: 1.3em;
+}
 
-	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-	<script src="app.js"></script>
-</body>
+a {
+    color: #0095ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0c65a5;
+    text-decoration: underline;
+}
+
+ul {
+    margin-top: 1rem;
+}
+
+li {
+    list-style-type: square;
+    list-style-position: outside;
+    margin-left: 1.3em;
+}
+
+.highlights>li>p {
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.67rem;
+}
+
+h3 {
+    font-size: 1.27rem;
+}
+
+em {
+    color: #757575;
+}
+
+blockquote {
+    margin-bottom: 1em;
+}
+
+strong {
+    font-weight: 700;
+}
+
+
+/* main container */
+
+#resume {
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+
+/* every section wrapper */
+
+.section {
+    margin-bottom: 1rem;
+}
+
+section .location {
+    margin-right: .5em;
+    color: #606d76;
+    font-weight: 700;
+}
+
+#contact {
+    margin-top: .5rem;
+}
+
+#profiles .item {
+    padding: 0;
+}
+
+#header>#profiles,
+#header>#contact,
+#skills,
+#languages,
+#interests {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+}
+
+#header>div {
+    line-height: 1.5;
+}
+
+#header>div>div {
+    margin-right: 1.2em;
+}
+
+#header h1.name {
+    font-size: 2.8rem;
+    font-weight: 100;
+    line-height: 100%;
+}
+
+#header h2.label {
+    color: #202931;
+    font-size: 1.47rem;
+    font-weight: 300;
+}
+
+#header .picture {
+    width: 11em;
+    float: right;
+    border-radius: 4px;
+}
+
+.main-summary {
+    background: #f1f8ff;
+    padding: 1.2em 1em;
+    margin-top: 1rem;
+}
+
+.main-summary p {
+    margin: .15em 0 0;
+}
+
+h2.section-title {
+    display: inline-block;
+    background: #fff;
+    padding: 0 1em 0.3em 0;
+    color: #ff6d1f;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    font-size: .9rem;
+}
+
+.section>header {
+    position: relative;
+}
+
+.fa {
+    margin-right: 0.25em;
+}
+
+.section>header::after {
+    position: absolute;
+    left: 0;
+    top: .7em;
+    height: 1px;
+    background: #ccc;
+    content: "";
+    width: 100%;
+    z-index: -100;
+    display: block;
+}
+
+.section.main-summary>section {
+    margin: 0;
+}
+
+.section>section>header {
+    font-size: 1.38rem;
+    position: relative;
+    margin-top: .7em;
+}
+
+.section>section>header:first-of-type {
+    margin: 0;
+}
+
+.section>section>header .space-left {
+    position: absolute;
+    left: -1.56rem;
+    top: 5px;
+    color: #aaa;
+    line-height: 1;
+    opacity: 0;
+}
+
+.position,
+.company,
+.organization,
+.institution,
+.date,
+.area,
+.studyType,
+.title,
+.awarder {
+    display: inline;
+}
+
+.position,
+.studyType,
+.area,
+.title,
+.language,
+.name {
+    font-weight: 600;
+}
+
+.company::before,
+.institution::before,
+.organization::before,
+.awarder::before {
+    content: "at "
+}
+
+.company,
+.institution,
+.organization,
+.awarder {
+    color: #606d76;
+    font-weight: 400;
+}
+
+.section header .date {
+    font-size: 1rem;
+    display: inline-table;
+    padding: .1em 0;
+    font-weight: 600;
+}
+
+ul.keywords,
+ul.courses {
+    margin-top: .5em;
+}
+
+ul.keywords li,
+ul.courses li {
+    display: inline-block;
+    margin: 2px 2px 2px 0;
+    padding: 4px 5px 5px;
+    font-size: .9rem;
+    line-height: 1;
+    text-transform: lowercase;
+    color: #3e6d8e;
+    background-color: #dfeaf1;
+    border: 0 solid #dfeaf1;
+    white-space: nowrap;
+}
+
+ul.keywords li:hover,
+ul.courses li:hover {
+    background: #dfeaf0;
+}
+
+.item {
+    padding: .5em 0;
+}
+
+.gpa {
+    padding-bottom: .5em;
+}
+
+.fa.social {
+    font-size: 1.1em;
+}
+
+
+/* Social Media Brand Colors */
+
+.google-plus {
+    color: #dd4b39;
+}
+
+.tumblr {
+    color: #32506d;
+}
+
+.foursquare {
+    color: #0072b1;
+}
+
+.facebook {
+    color: #3b5998;
+}
+
+.linkedin {
+    color: #007bb6;
+}
+
+.pinterest {
+    color: #cb2027;
+}
+
+.dribbble {
+    color: #ea4c89;
+}
+
+.instagram {
+    color: #517fa4;
+}
+
+.twitter {
+    color: #00aced;
+}
+
+.soundcloud {
+    color: #ff3a00;
+}
+
+.wordpress {
+    color: #21759b;
+}
+
+.youtube {
+    color: #bb0000;
+}
+
+.github {
+    color: #171515;
+}
+
+.stack-overflow {
+    color: #828386;
+    position: relative;
+}
+
+.flickr {
+    color: #ff0084;
+}
+
+.stack-overflow::after {
+    position: absolute;
+    left: 0;
+    content: '\f16c';
+    color: #f68a1f;
+    overflow: hidden;
+    height: 100%;
+}
+
+.telegram {
+    color: #2291c3;
+}
+
+#languages .item,
+#skills .item,
+#interests .item {
+    width: 15em;
+    padding: 0 .5em .5em 0;
+    border-bottom: none;
+}
+
+#skills .item {
+    width: 16em;
+}
+
+#skills .item .keywords {
+    width: 15em;
+}
+
+
+/* Skill chart */
+
+.level {
+    margin-bottom: .5em;
+}
+
+.level .bar {
+    border: 1px solid #ddd;
+    display: block;
+    width: 10em;
+    height: 5px;
+    position: relative;
+}
+
+.level .bar::after {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    background: black;
+    height: 5px;
+}
+
+.level.beginner .bar::after {
+    background: #EB5F51;
+    width: 2.5em;
+}
+
+.level.intermediate .bar::after {
+    background: #ffdf1f;
+    width: 5em;
+}
+
+.level.advanced .bar::after,
+.level.fluent .bar::after {
+    background: #5CB85C;
+    width: 7.5em;
+}
+
+.level.master .bar::after,
+.level.native.speaker .bar::after {
+    background: #59C596;
+    width: 10em;
+}
+
+#references .item {
+    padding-left: .5em;
+    border-left: 5px solid #ff6d1f;
+}
+
+.toggle-item {
+  visibility: hidden;
+}
+
+/******************
+*	HELPER CLASSES
+******************/
+
+.clear::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.display {
+    display: block;
+    opacity: 1 !important;
+}
+
+.margin1 {
+    margin-bottom: .5rem;
+}
+
+
+/****************
+*		TABLET
+****************/
+
+@media screen and (min-width: 602px) {
+    #resume {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+
+/****************
+*		LAPTOP
+****************/
+
+@media screen and (min-width: 1025px) {
+    li {
+        margin-left: 1.5em;
+    }
+    #resume {
+        width: 820px;
+        margin: 2rem auto;      
+    }
+    .section>section>header .space-left {
+        opacity: 1;
+        cursor: pointer;
+    }
+    .section>section {
+        margin-left: 1.67rem;
+    }
+    .toggle-item {
+        transform: translate(-9999px);
+    }
+    .toggle-item+label {
+        display: block;
+        margin-top: -16px;
+    }
+    .toggle-item:checked+label:after {
+        content: '\f0d7';
+    }
+    .toggle-item+label:after {
+        float: left;
+        cursor: pointer;
+        margin-left: -20px;
+        color: #aaa;
+        font-size: 16px;
+        content: '\f0da';
+        font-family: Fontawesome;
+    }
+    .toggle-item~.item {
+        height: 0;
+        opacity: 0;
+    }
+    .toggle-item:checked~.item {
+        height: auto;
+        opacity: 1;
+        transition: all .5s linear;
+    }
+    .company::before,
+    .institution::before,
+    .organization::before,
+    .awarder::before {
+        content: "| ";
+    }
+    .header-left {
+        float: left;
+        width: 70%;
+        word-break: normal;
+    }
+    .section header .date {
+        float: right;
+        padding: .2em;
+    }
+    .display {
+        display: none;
+    }
+    .display:not(.none) {
+        display: block;
+    }
+}
+
+@media print {
+    #resume {
+        margin: 0;
+        padding: 0;
+        -ms-word-wrap: break-word;
+        word-wrap: break-word;
+        line-height: 1.3;
+        /*font-family: Arial, Georgia, "Lucida Grande", sans-serif;*/
+    }
+    @page {
+        margin: 1cm 1.4cm;
+    }
+    .item-count {
+        display: none;
+    }
+    .company::before,
+    .institution::before,
+    .organization::before,
+    .awarder::before {
+        content: "at ";
+    }
+    .main-summary {
+        padding: 2rem 0;
+    }
+    .section {
+        margin: .8rem 0;
+        padding: 0;
+    }
+    .section header {
+        padding-bottom: .15rem;
+    }
+    .section .location {
+        padding-bottom: .15rem;
+    }
+    .stack-overflow::after {
+        content: "";
+    }
+    .fa.social {
+        color: #828386;
+    }
+    ul {
+        margin-top: .4em;
+    }
+    ul,
+    li {
+        padding: 0;
+    }
+    ul.keywords li,
+    ul.courses li {
+        margin: 0;
+        padding: 0;
+        font-size: .8rem;
+        text-transform: lowercase;
+    }
+    ul.keywords li::after,
+    ul.courses li::after {
+        padding: 0 0 0 .1rem;
+        content: " |";
+    }
+    ul.keywords::before,
+    ul.courses::before {
+        font-size: .8rem;
+        font-weight: 600;
+    }
+    ul.keywords::before {
+        content: "Skills acquired: ";
+    }
+    #skills .keywords::before {
+        content: '';
+    }
+    .section p {
+        margin: 0;
+        padding: 0;
+    }
+    ul.courses::before {
+        content: "Major courses: ";
+    }
+    ul.keywords li:last-of-type::after,
+    ul.courses li:last-of-type::after {
+        content: "";
+    }
+    .level em {
+        font-style: normal;
+        padding: .1em 0;
+    }
+    .level .bar {
+        display: none;
+    }
+    #profiles .item {
+        padding: 0;
+    }
+    .item.display {
+        display: block;
+        opacity: 1 !important;
+    }
+}
+
+  </style>
+  
+  </head>
+  <body>
+  
+  <div id="resume">
+    	<header id="header" class="clear">
+    		<div>
+    			<h1 class="name">Josh Alexy</h1>
+    			<h2 class="label">Freelance JavaScript Developer</h2>
+    		</div>
+    		
+    		<span class="location">
+    			<span class="address">8601 Anderson Mill Road, Apartment 914,</span> 
+    			<span class="postalCode">78729,</span> 
+    			<span class="city">Austin,</span> 
+    			<span class="region">Texas</span> 
+    			<span class="countryCode">US</span> 
+    		</span>
+    		
+    
+    		<div id="contact">
+    			<div class="email">
+    				<span class="fa fa-envelope-o"></span>
+    				<a href="mailto:jalexy12@gmail.com">jalexy12@gmail.com</a>
+    			</div>
+    			<div class="phone">
+    				<span class="fa fa-mobile"></span>
+    				<a href="tel:412-335-8662">412-335-8662</a>
+    			</div>
+    		</div>
+    
+    		<div id="profiles">
+    			<div class="item">
+    				<div class="username">
+    					<span class="fa fa-linkedin linkedin social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://www.linkedin.com/in/joshalexy/">joshalexy</a>
+    					</span> 
+    				</div>
+    			</div>
+    			<div class="item">
+    				<div class="username">
+    					<span class="fa fa-stackoverflow stackoverflow social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://stackoverflow.com/users/4624718/josh-alexy">josh-alexy</a>
+    					</span> 
+    				</div>
+    			</div>
+    			<div class="item">
+    				<div class="username">
+    					<span class="fa fa-github github social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://github.com/jalexy12">jalexy12</a>
+    					</span> 
+    				</div>
+    			</div>
+    		</div>
+    	</header>
+    
+    	<section class="section main-summary">
+    		<section>
+    			<div><p>A talented web developer with 4 years of experience, and wide array of tools in his technical toolbelt, and will take your product from idea to launch.</p></div>
+    		</section>
+    	</section>
+    
+    <section class="section margin1">
+    	<header>
+    		<h2 class='section-title'>Skills</h2>
+    	</header>
+    	<section id="skills">
+    		<div class="item">
+    			<h3 class="name">
+    				Backend Web Development
+    			</h3>
+    			 
+    			<div class="level advanced">
+    				<em>Advanced</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>Ruby On Rails</li>
+    				<li>GraphQL</li>
+    				<li>Elixir</li>
+    				<li>NodeJS</li>
+    				<li>Python</li>
+    				<li>Redis</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Frontend Web Development
+    			</h3>
+    			 
+    			<div class="level advanced">
+    				<em>Advanced</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>React.js</li>
+    				<li>JavaScript</li>
+    				<li>SASS</li>
+    				<li>CSS</li>
+    				<li>Angular(.js/2/3/4)</li>
+    				<li>Apollo</li>
+    				<li>MobX</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Frontend Web Development
+    			</h3>
+    			 
+    			<div class="level advanced">
+    				<em>Advanced</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>React.js</li>
+    				<li>JavaScript</li>
+    				<li>SASS</li>
+    				<li>CSS</li>
+    				<li>Angular(.js/2/3/4)</li>
+    				<li>Apollo</li>
+    				<li>MobX</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Databases
+    			</h3>
+    			 
+    			<div class="level intermediate">
+    				<em>Intermediate</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>PostgreSQL</li>
+    				<li>MongoDB</li>
+    				<li>Neo4j (Basic Usage)</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Servers and DevOps
+    			</h3>
+    			 
+    			<div class="level basic">
+    				<em>Basic</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>Heroku</li>
+    				<li>Amazon Web Services</li>
+    			</ul>
+    		</div>
+    	</section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Work Experience <span class="item-count">(5)</span></h2>
+      </header>
+    
+      <section id="work">
+        <section class="work-item">
+    
+            <input id="work-item-0" type="checkbox" class="toggle-item" checked="checked" />
+            <label for="work-item-0"></label>
+    
+    			<header>
+    				<div class="position">Developer</div>
+    				<div class="company">Unyted (Freelance)</div>
+    				<div class="date">
+    				  <span class="startDate">January 2016</span> 
+    					<span class="endDate">- Current</span>
+    				</div>
+    			</header>
+    			
+         	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>Unyted is a revolutionary educational platform, creating exciting, team-based exercises for students, and clear results for teachers.</p></p>
+            </div>
+            <ul class="highlights">
+                <li><p>Migrated MVP version of backend from Ruby on Rails to a more modern and appropriate Elixir backend</p></li>
+                <li><p>Scaled the app from 0 users to over 3000 in 1 year, with complex domain-specific issues such as maintaining dozens of websocket connections and managing complicated game state</p></li>
+                <li><p>Successfully lead initiative to give teachers real-time, data based feedback about their students progress</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-1" type="checkbox" class="toggle-item" />
+            <label for="work-item-1"></label>
+    
+    			<header>
+    				<div class="position">Developer</div>
+    				<div class="company">Unsilenced Voices (Freelance)</div>
+    				<div class="date">
+    				  <span class="startDate">September 2018</span> 
+    					<span class="endDate">- Current</span>
+    				</div>
+    			</header>
+    			
+         	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>UnsilencedVoices is a social media platform with a focus on free speech, without the barriers of censorship that are currently causing issues for many platforms.</p></p>
+            </div>
+            <ul class="highlights">
+                <li><p>Migrated very basic 'MVP' HTML and CSS website to a formal Rails app</p></li>
+                <li><p>Created modern social-networking features such as friends, followers, posts, likes and dislikes</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-2" type="checkbox" class="toggle-item" />
+            <label for="work-item-2"></label>
+    
+    			<header>
+    				<div class="position">Product Developer</div>
+    				<div class="company">Ironhack</div>
+    				<div class="date">
+    				  <span class="startDate">April 2017</span> 
+    					<span class="endDate">- March 2018</span> 
+    				</div>
+    			</header>
+    			
+         	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>As a product developer at a web development bootcamp, I was involved in all facets of the organization, from product development, to educational materials creation, and interviewing prospective students.</p></p>
+            </div>
+            <ul class="highlights">
+                <li><p>Migrated old marketing website to a new modern stack, supporting multiple languages and multiple courses, that functioned as the core lead generator of the organization</p></li>
+                <li><p>Instrumental in the choice of technologies and development of the first version of the organization's administration platform, which was a CMS for the lead generation website</p></li>
+                <li><p>Vital member of a team that developed a new JavaScript curriculum that is used daily by hundreds of students globally</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-3" type="checkbox" class="toggle-item" />
+            <label for="work-item-3"></label>
+    
+    			<header>
+    				<div class="position">Teaching Lead (Part Time Course)</div>
+    				<div class="company">Ironhack</div>
+    				<div class="date">
+    				  <span class="startDate">October 2016</span> 
+    					<span class="endDate">- March 2017</span> 
+    				</div>
+    			</header>
+    			
+         	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>As the lead teacher for the first-ever part time course in Miami, I was responsible for teaching a class of 12 aspiring professional web developers, managing curriculum, and providing the students with the best educational experience of their lives.</p></p>
+            </div>
+            <ul class="highlights">
+                <li><p>Pioneered the evolution of Ironhack's curriculum from being full time only, to part-time</p></li>
+                <li><p>Graduated 11/12 students with viable MVP web development final projects</p></li>
+                <li><p>Received tremendous feedback in monthly reviews from students, consistently</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-4" type="checkbox" class="toggle-item" />
+            <label for="work-item-4"></label>
+    
+    			<header>
+    				<div class="position">Teaching Assistant</div>
+    				<div class="company">Ironhack</div>
+    				<div class="date">
+    				  <span class="startDate">March 2015</span> 
+    					<span class="endDate">- October 2016</span> 
+    				</div>
+    			</header>
+    			
+         	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>As the teaching assistant for Ironhack, I was involved in every aspect of the educational experience, from supporting the lead instructor, to interviewing course candidates, to coordinating feedback with a global tema over multiple campuses.</p></p>
+            </div>
+            <ul class="highlights">
+                <li><p>Graduated over 200 students from the web development course with an 80+% placement rate in 3 months</p></li>
+                <li><p>Coordinated curriculum feedback and improvements with 3 other campuses globally</p></li>
+                <li><p>Orchestrated systems of education management, such as grade keeping, communications channels over Slack, daily code review, and implementing a model more similar to the 'flipped classroom'</p></li>
+            </ul>
+        	</div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Education <span class="item-count">(1)</span></h2>
+      </header>
+    
+      <section id="education">
+        <section class="education-item">
+          <header>
+            <div class="header-left">
+              <div class="area">
+                Web Development
+              </div>
+              <div class="institution">
+                Ironhack
+              </div>
+            </div>
+            <div class="date">
+              <span class="startDate">
+              2015
+              </span>
+              <span class="endDate">
+              - 2015
+              </span>
+            </div>
+          </header>
+    
+    
+    
+          <div class="item">
+          </div>
+        </section>
+      </section>
+    </section>
+
+  </body>
 </html>
